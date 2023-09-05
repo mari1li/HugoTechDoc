@@ -1,0 +1,36 @@
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+{{- .Content -}}
+
+{{ range .Data.Pages.GroupByDate "2006" }}
+      <div class="archive__heading">{{ .Key }}</div>
+      {{ range .Pages }}
+        <ul class="archive__list">
+          <li class="archive__list-item">
+            <a class="archive__list-title" href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            <div class="archive__list-date">
+              {{ if isset .Site.Params "listdateformat" }}
+                {{ if .Site.Params.localizedDates }}
+                  {{ time.Format .Site.Params.listDateFormat .Date }}
+                {{ else }}
+                  {{ .Date.Format .Site.Params.listDateFormat }}
+                {{ end }}
+
+              {{ else }}
+                {{ if .Site.Params.localizedDates }}
+                  {{ time.Format "Jan 2" .Date }}
+                {{ else }}
+                  {{ .Date.Format "Jan 2" }}
+                {{ end }}
+
+              {{ end }}
+            </div>
+          </li>
+        </ul>
+      {{ end }}
+
+    {{ end }}
+
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{- end -}}

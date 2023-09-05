@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics on Demo Hugo</title>
+    <link>http://example.org/physic/</link>
+    <description>Recent content in Physics on Demo Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Aug 2023 21:33:02 -0700</lastBuildDate><atom:link href="http://example.org/physic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gravity</title>
+      <link>http://example.org/physic/gravity/</link>
+      <pubDate>Sat, 26 Aug 2023 21:33:02 -0700</pubDate>
+      
+      <guid>http://example.org/physic/gravity/</guid>
+      <description>This is a eightheeheheheheh</description>
+    </item>
+    
+    <item>
+      <title>newton</title>
+      <link>http://example.org/physic/newtonlaw/</link>
+      <pubDate>Sat, 26 Aug 2023 21:33:02 -0700</pubDate>
+      
+      <guid>http://example.org/physic/newtonlaw/</guid>
+      <description>This is a eightheeheheheheh</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Demo Hugo</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Posts on Demo Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Sep 2023 13:25:17 -0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One</title>
+      <link>http://example.org/posts/one/</link>
+      <pubDate>Sun, 03 Sep 2023 17:09:19 -0700</pubDate>
+      
+      <guid>http://example.org/posts/one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Inserted</title>
+      <link>http://example.org/posts/image_inserted/</link>
+      <pubDate>Sat, 26 Aug 2023 21:37:24 -0700</pubDate>
+      
+      <guid>http://example.org/posts/image_inserted/</guid>
+      <description>Hellooooooooo
+jddsfhoihs
+ejssfoishfoih</description>
+    </item>
+    
+    <item>
+      <title>derivative</title>
+      <link>http://example.org/calculus/lecture2/</link>
+      <pubDate>Sat, 26 Aug 2023 21:33:02 -0700</pubDate>
+      
+      <guid>http://example.org/calculus/lecture2/</guid>
+      <description>This is a eightheeheheheheh</description>
+    </item>
+    
+    <item>
+      <title>gravity</title>
+      <link>http://example.org/physic/gravity/</link>
+      <pubDate>Sat, 26 Aug 2023 21:33:02 -0700</pubDate>
+      
+      <guid>http://example.org/physic/gravity/</guid>
+      <description>This is a eightheeheheheheh</description>
+    </item>
+    
+    <item>
+      <title>integral</title>
+      <link>http://example.org/calculus/lecture1/</link>
+      <pubDate>Sat, 26 Aug 2023 21:33:02 -0700</pubDate>
+      
+      <guid>http://example.org/calculus/lecture1/</guid>
+      <description>This is a eightheeheheheheh</description>
+    </item>
+    
+    <item>
+      <title>newton</title>
+      <link>http://example.org/physic/newtonlaw/</link>
+      <pubDate>Sat, 26 Aug 2023 21:33:02 -0700</pubDate>
+      
+      <guid>http://example.org/physic/newtonlaw/</guid>
+      <description>This is a eightheeheheheheh</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Hugo is a static site engine written in Go.
+It makes use of a variety of open source projects including:
+Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Team Member</title>
+      <link>http://example.org/teammember/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/teammember/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

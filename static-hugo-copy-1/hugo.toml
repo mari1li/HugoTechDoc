@@ -1,0 +1,84 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Demo Hugo'
+
+# theme as hugo module
+#theme = "github.com/lxndrblz/anatole"
+# theme as git submodule
+
+
+
+[params]
+author = "By Team Messaging Platform"
+description = "Kafka Documentation Page"
+profilePicture = "/images/Bellingham.jpg"
+readMore = true
+headerImage = "/images/Kafka.jpg"
+
+# for the menu to be wide open, we use "open-menu",
+# if we want to drop down the menu, we use "slide-menu"
+menu_style = "slide-menu"
+menu_exclusion = ["Home"]
+
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+
+[author]
+  name = "Linh"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates = false
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  # if we want to add another page, we can use this menu.main, and change the url to the directory file in the /content directory
+ 
+
+
+
+
+
+theme = "hugo-theme-techdoc"
+
